@@ -1,3 +1,25 @@
 h1{
     color: red;
 } 
+
+.main{
+    background-color: rgb(157, 196, 248);
+    display: grid;
+    height: 100vh;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+}
+
+body{
+    margin: 0;
+}
+
+.shapeA{
+    /* background-color: blue; */
+    grid-row: 2/3;
+    grid-column: 2/3;
+    height: 100px;
+    width: 100px;
+    border-bottom: 100px solid blue;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent; 
+}
